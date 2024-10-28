@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+body {
+    font-family: Georgia;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f8f8;}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);}
+
+.container1 {width: 40%}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 5%;}
+
+    img{max-width: 100%;}
+
+h1,h2{
+    margin-top: 20px;
+    text-align: center;}
+
+h1 {
+    font-family: Butler;
+    font-size: 48px;
+    color: black;}
+
+h2 {
+    font-family: Lato;
+    font-size: 36px;
+    color: #b12a2a;
+    margin-bottom: 20px;
+    font-style: italic;
+    margin-top: 1;}
+
+p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+h4{ font-family: "Roboto Flex";
+   font-style: italic;
+margin-bottom: 5%;}
+
+
+p.website {
+    font-size: 10px;
+    margin-top: 20px;}
+
+p.website a {
+    text-decoration: none;
+    color: #b12a2a;
+    font-weight: bold;}
+
+p.website a:hover {
+    text-decoration: underline;}
+
+strong {
+    font-weight: bold;}
+
+.highlight {
+    font-family: Butler;
+    font-size: 70px;}
+
+h5{font-family: Butler;
+        font-size: 70px;
+     margin-left: 35%;
+    color: black;}
+     
+
+h6{font-family: "Cinzel", serif;
+        font-size: 40px;
+        margin-left: 42%;
+       color: black;}
+
+     body {background-color: rgba(227, 219, 204, 0.92);}
+
+
+nav { 
+        font-family: "Lusitana";
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+        background-color: #f53a3a;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        border-radius: 50px;
+        overflow: hidden;
+        padding: -1px;
+        transition: all 0.3s ease;
+        animation: fadeInUp 2s ease-in-out;
+        margin-top: 1%;}
+    
+    
+nav a { 
+        text-decoration: none;
+        color: #000000;
+        padding: 10px 20px;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        transition: color 0.3s, background-color 0.3s;
+        margin: -3px;
+        border-radius: 30px;
+        position: relative;}
+    
+    
+nav a:hover {
+        color: white;}
+    
