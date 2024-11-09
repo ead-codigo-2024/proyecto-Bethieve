@@ -193,3 +193,14 @@ nav a:hover {
             .footer-section {
                 margin-bottom: 20px;
             }
+
+
+            
+                nav {
+                    flex-direction: column;
+                }
+                nav a {
+                    width: 100%;
+                    text-align: center;
+                    font-size: 1.2rem;
+                }
