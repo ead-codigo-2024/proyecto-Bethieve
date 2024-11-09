@@ -214,13 +214,13 @@ nav a:hover {
 @media (max-width: 767px) {
     nav {
         flex-wrap: nowrap;
-        overflow-x: auto; /* Permite el desplazamiento horizontal en pantallas pequeñas */
+        overflow-x: auto; 
         white-space: nowrap;
         padding: 8px;
     }
     nav a {
         font-size: 1rem;
-        padding: 8px 15px; /* Ajusta el tamaño de padding para ahorrar espacio */
+        padding: 8px 15px; 
     }
 }
 
